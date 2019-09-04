@@ -1,0 +1,21 @@
+.menu-bar__item {
+  width: 9em;
+  margin: 0 0.5em;
+  text-align: center;
+  text-transform: none;
+  text-decoration: none;
+  color: var(--primaryTextColor);
+  line-height: 2em;
+}
+
+.menu-bar__item:hover{
+  color: var(--secondaryLightColor) !important;
+  transition: all .15s ease
+}
+
+.active-menu-item {
+  box-shadow: 0px 1px 0px 0px var(--primaryColor),
+              0px 3px 0px 0px var(--secondaryColor);
+
+  transition: all .15s ease
+}

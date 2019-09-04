@@ -1,0 +1,12 @@
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-right: 2em;
+}
+
+.logo {
+  height: 1.5em;
+  width: 1.5em;
+  fill: var(--secondaryColor);
+  transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}

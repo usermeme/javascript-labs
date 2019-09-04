@@ -1,0 +1,16 @@
+header {
+  box-sizing: border-box;
+  position: fixed;
+  width: 100%;
+  background-color: var(--primaryColor);
+  z-index: 100000;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+}
+
+header .menu-burger {
+  display: inline-flex;
+}

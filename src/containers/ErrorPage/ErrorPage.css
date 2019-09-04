@@ -1,0 +1,12 @@
+.error-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  text-align: center;
+  min-height: calc(100vh - 3.8em);
+  height: 100%;
+}
+
+.error-container {
+  padding: 2em 0;
+}
