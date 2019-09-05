@@ -9,7 +9,7 @@ type SectionCodeType = {
   language: string
 }
 
-const SectionCode = ({ children, language }: SectionCodeType) => (
+const SectionCode = ({ children, language = 'javascript' }: SectionCodeType) => (
   <SyntaxHighlighter language={language} style={docco}>
     {children}
   </SyntaxHighlighter>

@@ -174,6 +174,115 @@ alert('Мир'); // Этот комментарий следует за инст
         Переменная – это «именованное хранилище» для данных.
         Мы можем использовать переменные для хранения товаров, посетителей и других данных.
       </Section.text>
+      <Section.text>
+        Для создания переменной в JavaScript, используйте ключевое слово var/let/const.
+      </Section.text>
+      <Section.text>
+        Приведённая ниже инструкция создаёт
+        (другими словами: объявляет или определяет) переменную с именем «message»:
+      </Section.text>
+      <Section.code language="javascript">
+        {`
+let message;
+message = 'Hello'; // сохранить строку
+
+alert(message); // показывает содержимое переменной`}
+      </Section.code>
+      <Section.text>
+        Для краткости можно совместить объявление переменной и запись данных в одну строку:
+      </Section.text>
+      <Section.code language="javascript">
+        {`
+let message = 'Hello!'; // определяем переменную и присваиваем ей значение
+
+alert(message); // Hello!`}
+      </Section.code>
+      <Section.divider />
+      <Section.title rank="3">
+        var вместо let
+      </Section.title>
+      <Section.text>
+        В старых скриптах вы также можете найти другое ключевое слово: var вместо let:
+      </Section.text>
+      <Section.code language="javascript">
+        {'var message = \'Hello\';'}
+      </Section.code>
+      <Section.text>
+        Ключевое слово var – почти то же самое, что и let. Оно объявляет переменную,
+        но немного по-другому, «устаревшим» способом.
+        Есть тонкие различия между let и var, но они пока не имеют для нас значения.
+      </Section.text>
+      <Section.divider />
+      <Section.title rank="2">
+        Имена переменных
+      </Section.title>
+      <Section.text>
+        В JavaScript есть два ограничения, касающиеся имён переменных:
+      </Section.text>
+      <Section.list>
+        {[
+          'Имя переменной должно содержать только буквы, цифры или символы $ и _.',
+          'Первый символ не должен быть цифрой.'
+        ]}
+      </Section.list>
+      <Section.text>
+        Регистр имеет значение.
+        Переменные с именами apple and AppLE – это две разные переменные.
+      </Section.text>
+      <Section.title rank="2">
+        Константы
+      </Section.title>
+      <Section.text>
+        Чтобы объявить константную, то есть, неизменяемую переменную, используйте const вместо let:
+      </Section.text>
+      <Section.code language="javascript">
+        {'const myBirthday = \'30.08.1998\';'}
+      </Section.code>
+      <Section.text>
+        Переменные объявленные с помощью const, называются «константами».
+        Их нельзя изменить. Попытка сделать это приведёт к ошибке:
+      </Section.text>
+    </Section>
+    <Section>
+      <Section.title>
+        Задания
+      </Section.title>
+      <Section.divider />
+      <Section.title rank="2">
+        Задание 1
+      </Section.title>
+      <Section.text>
+        Написать скрипт, который будет выводить переменную в всплывающее окно
+      </Section.text>
+      <Section.title rank="3">
+        Вариант 1
+      </Section.title>
+      <Section.code>
+        {"const variables = 'hello'"}
+      </Section.code>
+      <Section.title rank="3">
+        Вариант 2
+      </Section.title>
+      <Section.code>
+        {"const variables = 'world'"}
+      </Section.code>
+      <Section.title rank="3">
+        Вариант 3
+      </Section.title>
+      <Section.code>
+        {"const variables = 'hello world'"}
+      </Section.code>
+      <Section.divider />
+      <Section.title rank="2">
+        Задание 2
+      </Section.title>
+      <Section.text>
+        Создать два файла .js и подключить их index.html
+      </Section.text>
+      <Section.text>
+        каждый из файлов должен вывести по одному всплывающему окну
+      </Section.text>
+      <Section.divider />
     </Section>
   </>
 );
