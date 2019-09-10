@@ -14,13 +14,13 @@ const SideList = ({ closeMenu }: SideListProps) => {
     { text: 'Привет мир! Структура кода. Переменные.', path: 'HelloWorld' },
     { text: 'Типы данных. Преобразование типов.', path: 'Variables' },
     { text: 'Операторы. Операторы сравнения.', path: 'Operators' },
-    { text: 'Условные операторы: if, "?". Логические операторы', path: 'Logics' },
+    { text: 'Условные операторы: if, "?".', path: 'Condition'},
+    { text: 'Логические операторы', path: 'Logics' },
     { text: 'Циклы while и for.', path: 'Loops' },
-    { text: 'Функции. Function Expression и функции-стрелки.', path: 'Funcions' },
+    { text: 'Функции.', path: 'Functions' },
     { text: 'Строки. Методы строк.', path: 'Strings' },
+    { text: 'Объекты. Методы объекта', path: 'Objects' },
     { text: 'Массивы. Методы массивов.', path: 'Arrays' },
-    { text: 'Объекты. Методы объекта, "this"', path: 'Objects' },
-    { text: 'Конструкторы, создание объектов через "new"', path: 'Constructors' }
   ];
 
   return (

@@ -276,12 +276,30 @@ alert(message); // Hello!`}
       <Section.title rank="2">
         Задание 2
       </Section.title>
+      <Section.title rank="3">
+        Для всех вариантов
+      </Section.title>
       <Section.text>
-        Создать два файла .js и подключить их index.html
+        Создать два файла .js и подключить их к index.html.
       </Section.text>
       <Section.text>
-        каждый из файлов должен вывести по одному всплывающему окну
+        Каждый из файлов должен вывести по одному всплывающему окну
       </Section.text>
+      <Section.divider />
+      <Section.title rank="2">
+        Задание 3
+      </Section.title>
+      <Section.title rank="3">
+        Для всех вариантов
+      </Section.title>
+      <Section.list>
+        {[
+          'Объявите две переменные: admin и name.',
+          'Запишите строку "Джон" в переменную name.',
+          'Скопируйте значение из переменной name в admin.',
+          'Выведите на экран значение admin, используя функцию alert (должна показать «Джон»).'
+        ]}
+      </Section.list>
       <Section.divider />
     </Section>
   </>
