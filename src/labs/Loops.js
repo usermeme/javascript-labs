@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-import { Section } from '../components'
+import { Section } from '../components';
 
 const Loops = () => (
   <>
@@ -8,6 +8,22 @@ const Loops = () => (
       <Section.title>
         Циклы while и for
       </Section.title>
+      <Section.text>
+        <b>Цель:</b>
+        научиться работать с циклами в JavaScript,
+        изучит циклы  while и for.
+      </Section.text>
+      <Section.title rank="3">
+        Задания
+      </Section.title>
+      <Section.list>
+        {[
+          'Ознакомиться с материалом по данной теме',
+          'Выполнить индивидуальное задание',
+          'Оформить отчет'
+        ]}
+      </Section.list>
+      <Section.divider />
       <Section.text>
         При написании скриптов зачастую встаёт задача сделать
         однотипное действие много раз.
@@ -71,7 +87,8 @@ while (i) { // когда i будет равно 0, условие станет
         Цикл «do…while»
       </Section.title>
       <Section.text>
-        Проверку условия можно разместить под телом цикла, используя специальный синтаксис do..while:
+        Проверку условия можно разместить под телом цикла,
+        используя специальный синтаксис do..while:
       </Section.text>
       <Section.code>
         {`
@@ -161,7 +178,8 @@ for (;;) {
 }`}
       </Section.code>
       <Section.text>
-        При этом сами точки с запятой ; обязательно должны присутствовать, иначе будет ошибка синтаксиса.
+        При этом сами точки с запятой ; обязательно должны присутствовать,
+        иначе будет ошибка синтаксиса.
       </Section.text>
       <Section.divider />
       <Section.title rank="2">
@@ -295,7 +313,7 @@ for (let i = 10; i > 3; i-- {
         Предусматривать обработку нечисловых строк в этой задаче необязательно.
       </Section.text>
     </Section>
-  </>    
+  </>
 );
 
 export default Loops;

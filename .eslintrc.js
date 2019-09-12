@@ -35,6 +35,7 @@ module.exports = {
     "comma-dangle": ["error", "never"],
 		"react/jsx-filename-extension": [1, {
 			"extensions": [".js", ".jsx"]
-		}]
+		}],
+		"react/no-unescaped-entities": ["error", {"forbid": []}],
 	}
 };

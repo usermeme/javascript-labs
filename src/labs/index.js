@@ -3,7 +3,7 @@ import './labs.css';
 import HelloWorld from './HelloWorld';
 import Variables from './Variables';
 import Operators from './Operators';
-import Condition  from './Condition';
+import Condition from './Condition';
 import Logics from './Logics';
 import Loops from './Loops';
 import Functions from './Functions';

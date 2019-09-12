@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 import { Section } from '../components';
 
@@ -8,6 +8,21 @@ const Logics = () => (
       <Section.title>
         Логические операторы
       </Section.title>
+      <Section.text>
+        <b>Цель:</b>
+        научиться работать с логическими операторами в Javascript.
+      </Section.text>
+      <Section.title rank="3">
+        Задания
+      </Section.title>
+      <Section.list>
+        {[
+          'Ознакомиться с материалом по данной теме',
+          'Выполнить индивидуальное задание',
+          'Оформить отчет'
+        ]}
+      </Section.list>
+      <Section.divider />
       <Section.text>
         {'В JavaScript есть три логических оператора: || (ИЛИ), && (И) и ! (НЕ). Несмотря на своё название, данные операторы могут применяться к значениям любых типов. Полученные результаты также могут иметь различный тип.'}
       </Section.text>

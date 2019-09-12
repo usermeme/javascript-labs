@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 import { Section } from '../components';
 
@@ -8,6 +8,22 @@ const Arrays = () => (
       <Section.title>
         Массивы
       </Section.title>
+      <Section.text>
+        <b>Цель:</b>
+        научиться работать с массивами в JavaScript,
+        изучить базовые методы массивов
+      </Section.text>
+      <Section.title rank="3">
+        Задания
+      </Section.title>
+      <Section.list>
+        {[
+          'Ознакомиться с материалом по данной теме',
+          'Выполнить индивидуальное задание',
+          'Оформить отчет'
+        ]}
+      </Section.list>
+      <Section.divider />
       <Section.text>
         Объекты позволяют хранить данные со строковыми ключами. Это замечательно.
       </Section.text>
@@ -85,7 +101,7 @@ alert( fruits.length ); // 3`}
           'unshift добавляет элемент в начало.',
           'shift удаляет элемент в начале, сдвигая очередь, так что второй элемент становится первым.',
           'push добавляет элемент в конец.',
-          'pop удаляет последний элемент.',
+          'pop удаляет последний элемент.'
         ]}
       </Section.list>
       <Section.divider />

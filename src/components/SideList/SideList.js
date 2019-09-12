@@ -11,16 +11,16 @@ type SideListProps = {
 
 const SideList = ({ closeMenu }: SideListProps) => {
   const menuItems = [
-    { text: 'Привет мир! Структура кода. Переменные.', path: 'HelloWorld' },
+    { text: 'Подключение скриптов, структура кода. Переменные.', path: 'HelloWorld' },
     { text: 'Типы данных. Преобразование типов.', path: 'Variables' },
     { text: 'Операторы. Операторы сравнения.', path: 'Operators' },
-    { text: 'Условные операторы: if, "?".', path: 'Condition'},
+    { text: 'Условные операторы: if, "?".', path: 'Condition' },
     { text: 'Логические операторы', path: 'Logics' },
     { text: 'Циклы while и for.', path: 'Loops' },
     { text: 'Функции.', path: 'Functions' },
     { text: 'Строки. Методы строк.', path: 'Strings' },
     { text: 'Объекты. Методы объекта', path: 'Objects' },
-    { text: 'Массивы. Методы массивов.', path: 'Arrays' },
+    { text: 'Массивы. Методы массивов.', path: 'Arrays' }
   ];
 
   return (

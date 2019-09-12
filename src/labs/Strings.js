@@ -8,6 +8,21 @@ const Strings = () => (
       <Section.title>
         Строки
       </Section.title>
+      <Section.text>
+        <b>Цель:</b>
+        научиться работать со строками в JavaScript,
+        изучить основные методы для строк.
+      </Section.text>
+      <Section.title rank="3">
+        Задания
+      </Section.title>
+      <Section.list>
+        {[
+          'Ознакомиться с материалом по данной теме',
+          'Выполнить индивидуальное задание',
+          'Оформить отчет'
+        ]}
+      </Section.list>
       <Section.divider />
       <Section.title rank="2">
         Кавычки
@@ -24,7 +39,9 @@ let double = "double-quoted";
 let backticks = \`backticks\`;`}
       </Section.code>
       <Section.text>
-        {'Одинарные и двойные кавычки работают, по сути, одинаково, а если использовать обратные кавычки, то в такую строку мы сможем вставлять произвольные выражения, обернув их в ${…}:'}
+        {`Одинарные и двойные кавычки работают, по сути, одинаково, а если
+        использовать обратные кавычки, то в такую строку мы сможем
+        вставлять произвольные выражения, обернув их в \${…}:`}
       </Section.text>
       <Section.code>
         {`
@@ -56,7 +73,7 @@ alert(guestList); // список гостей, состоящий из неск
         Свойство length содержит длину строки:
       </Section.text>
       <Section.code>
-        {`alert( \`My\\n\`.length ); // 3`}
+        {'alert( `My\\n`.length ); // 3'}
       </Section.code>
       <Section.divider />
       <Section.title rank="2">

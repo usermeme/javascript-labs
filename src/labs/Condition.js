@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 import { Section } from '../components';
 
@@ -8,6 +8,21 @@ const Condition = () => (
       <Section.title>
         Условные операторы: if, '?'
       </Section.title>
+      <Section.text>
+        <b>Цель:</b>
+        изучить условный оператор "if" и тернарный оператор "?"
+      </Section.text>
+      <Section.title rank="3">
+        Задания
+      </Section.title>
+      <Section.list>
+        {[
+          'Ознакомиться с материалом по данной теме',
+          'Выполнить индивидуальное задание',
+          'Оформить отчет'
+        ]}
+      </Section.list>
+      <Section.divider />
       <Section.text>
         Иногда нам нужно выполнить различные
         действия в зависимости от условий.

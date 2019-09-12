@@ -8,6 +8,20 @@ const Operators = () => (
       <Section.title>
         Операторы
       </Section.title>
+      <Section.text>
+        <b>Цель:</b>
+        изучить основные понятия.
+      </Section.text>
+      <Section.title rank="3">
+        Задания
+      </Section.title>
+      <Section.list>
+        {[
+          'Ознакомиться с материалом по данной теме',
+          'Выполнить индивидуальное задание',
+          'Оформить отчет'
+        ]}
+      </Section.list>
       <Section.divider />
       <Section.title rank="2">
         Термины: «унарный», «бинарный», «операнд»
